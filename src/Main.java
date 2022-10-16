@@ -62,6 +62,7 @@ public class Main {
         for (int i = normalName - 1; i >= 0; i--) {
             System.out.print(confusedIvan[i]);
         }
+
         int quote = confusedIvan.length - 1;
         int quote1 = 12;
         int quote2 = confusedIvan[0];
@@ -70,8 +71,9 @@ public class Main {
         if (quote1 > quote) {
             if (quote3 < quote2) {
                 System.out.print(symbol1);
-
             }
         }
+        System.out.println();
+        System.out.println("Trying to put quotation marks");
     }
 }
